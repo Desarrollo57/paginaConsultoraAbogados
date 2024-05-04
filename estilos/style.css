@@ -46,6 +46,22 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media (max-width: 500px) {
+    .productos {
+        list-style-type: none;
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 900px), 1fr));  
+    
+    }
+
+}
+
+
 .icono{
     width: 60px;
     height: 60px
